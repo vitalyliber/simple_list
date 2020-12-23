@@ -1,6 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default (req, res) => {
+  // Get slug from query params
+  // const {
+  //   query: { slug },
+  // } = req;
+
+  // get data from database
   const data = {
     entry: {
       id: "dd6efc58-14fd-456b-a3f7-3d157cea8307",

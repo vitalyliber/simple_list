@@ -35,6 +35,7 @@ export default (req, res) => {
       per: 20,
       page: 1,
       total_count: 3,
+      total_pages: 1
     },
   };
   res.statusCode = 200;
